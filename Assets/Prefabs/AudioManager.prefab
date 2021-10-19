@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7211421050432811491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7211421050432811501}
+  - component: {fileID: 7211421050432811500}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7211421050432811501
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7211421050432811491}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 597.0487, y: 259.75494, z: -90.15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7211421050432811500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7211421050432811491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed0285f3b2424d34aaf452c5a5c486aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MainTheme
+    clip: {fileID: 8300000, guid: 9ba54ad75669dd44a99bd44db1adb59c, type: 3}
+    volume: 0.3
+    loop: 1
+    source: {fileID: 0}
+  - name: Hit
+    clip: {fileID: 8300000, guid: 7558f15890675294ba35036177795289, type: 3}
+    volume: 0.7
+    loop: 0
+    source: {fileID: 0}
+  - name: Collect
+    clip: {fileID: 8300000, guid: 4dd613d90ac99964ababd25a3a30c2c0, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MainTheme2
+    clip: {fileID: 8300000, guid: 764c04543bac97f429afbdc82875adeb, type: 3}
+    volume: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: JumpSound
+    clip: {fileID: 8300000, guid: b25ccf5267a3f734b9c610a86df20532, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LoseSound
+    clip: {fileID: 8300000, guid: e24ecfcb18fef814fbc9a82e6fe51d37, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MainTheme3
+    clip: {fileID: 8300000, guid: 90d5d1b8870f59542ac0472a339bab5c, type: 3}
+    volume: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: ButtonSound
+    clip: {fileID: 8300000, guid: 52e0aaa68b9679e45870da4dc7cf032d, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
